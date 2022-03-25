@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | curso platzi</title>
+</head>
+<body>
+    <h1>Figuras geometricas</h1>
+
+    <section>
+        <div class="cuadro">
+            <h2>Cuadrado</h2>
+            <form>
+                <label for="cuadrado">Lado: </label>
+                <input id="cuadrado" type="number"/>
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perimetro</button>
+                <button type="button"  onclick="calcularAreaCuadrado()">Calcular area</button>
+            </form>
+            <br>
+            <form>
+                <label for="triangulo1">Lado 1: </label>
+                <input id="triangulo1" type="number"/>
+                <label for="triangulo2">Lado 2: </label>
+                <input id="triangulo2" type="number"/>
+                <label for="base">Base: </label>
+                <input id="base" type="number"/>
+                <label for="altura">Altura: </label>
+                <input id="altura" type="number"/>
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perimetro</button>
+                <button type="button"  onclick="calcularAreaTriangulo()">Calcular area</button>
+            </form>
+            <br>
+            <form>
+                <label for="circulo">Radio: </label>
+                <input id="circulo" type="number"/>
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular perimetro</button>
+                <button type="button"  onclick="calcularAreaCirculo()">Calcular area</button>
+            </form>
+           
+        </div>
+
+    </section>
+
+    <script src="./figuras.js"></script>
+</body>
+</html>

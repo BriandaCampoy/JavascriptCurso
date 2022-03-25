@@ -1,0 +1,81 @@
+const mexico=[];
+mexico.push({
+    name:"Rodrigo",
+    salary:100
+});
+mexico.push({
+    name:"Karen",
+    salary:150
+});
+mexico.push({
+    name:"Tobias",
+    salary:70
+});
+mexico.push({
+    name:"Camila",
+    salary:200
+});
+mexico.push({
+    name:"Antonio",
+    salary:150
+});
+mexico.push({
+    name:"Sara",
+    salary:120
+});
+mexico.push({
+    name:"Andres",
+    salary:300
+});
+mexico.push({
+    name:"Karla",
+    salary:300
+});
+mexico.push({
+    name:"Edgar",
+    salary:250
+});
+mexico.push({
+    name:"Mara",
+    salary:270
+});
+mexico.push({
+    name:"David",
+    salary:500
+});
+mexico.push({
+    name:"Laura",
+    salary:450
+});
+mexico.push({
+    name:"Luisa",
+    salary:350
+});
+mexico.push({
+    name:"Felipe",
+    salary:400
+});
+mexico.push({
+    name:"Brenda",
+    salary:600
+});
+mexico.push({
+    name:"Salomon",
+    salary:550
+});
+mexico.push({
+    name:"Anna",
+    salary:900
+});
+mexico.push({
+    name:"Carlos",
+    salary:600
+});
+mexico.push({
+    name:"Lettie",
+    salary:200
+});
+mexico.push({
+    name:"Marcus",
+    salary:750
+});
